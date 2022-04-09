@@ -82,11 +82,11 @@ h2 {
     margin: 20px 0px;
 }
 
-.entrar {
+.sing-in {
     margin-bottom: 28px;
 }
 
-.entrar > .button-submit {
+.sing-in > .button-submit {
     background-color: rgba(60, 60, 60, 0.01);
     box-shadow: -4px -4px 7px white, 0px 0px 7px black;;
     font-size: 15px;
@@ -97,7 +97,7 @@ h2 {
     color: #000;
 }
 
-.entrar > .button-submit:hover {
+.sing-in > .button-submit:hover {
     box-shadow: -0px -0px 7px black, 4px 4px 7px white;;
 }
 
@@ -123,7 +123,7 @@ h2 {
     font-weight: bold;
     border-style: none;
     border-radius: 30px;
-    padding: 20px 40px;
+    padding: 20px 60px;
     color: #fff;
 }
 
