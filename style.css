@@ -17,6 +17,7 @@ h1 {
 }
 
 h2 {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: normal;
 }
@@ -44,20 +45,37 @@ h2 {
 }
 
 .title-h1 {
-    margin-bottom: 35px;
-}
-
-.titles {
-    color: #fff;
-    margin-bottom: 55px;
+    margin-bottom: 40px;
 }
 
 .links {
     margin-bottom: 55px;
 }
 
-.links > #link-logo {
+.links > .logo {
+    background-color: rgba(60, 60, 60, 0.01);
+    box-shadow: -4px -4px 7px white, 0px 0px 7px black;;
+    border-radius: 40px;
     margin: 10px;
+    padding: 21px 14px 9px 14px;
+}
+
+.links > .logo:hover {
+    box-shadow: -0px -0px 7px black, 4px 4px 7px white;;
+}
+
+.input-style {
+    background-color: rgba(60, 60, 60, 0.01);
+    box-shadow: -4px -4px 7px white, 0px 0px 7px black;;
+    font-size: 15px;
+    border-style: none;
+    border-radius: 20px;
+    padding: 20px 20px;
+    width: 30vw;
+}
+
+.input-style:hover {
+    box-shadow: -0px -0px 7px black, 4px 4px 7px white;;
 }
 
 .password {
@@ -68,30 +86,7 @@ h2 {
     margin-bottom: 28px;
 }
 
-.forgot-password a {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgba(60, 60, 60, 0.9);
-    text-decoration: none;
-}
-
-#link-logo {
-    background-color: rgba(60, 60, 60, 0.01);
-    box-shadow: -4px -4px 7px white, 0px 0px 7px black;;
-    border-radius: 40px;
-    padding: 21px 14px 9px 14px;
-}
-
-#input-style {
-    background-color: rgba(60, 60, 60, 0.01);
-    box-shadow: -4px -4px 7px white, 0px 0px 7px black;;
-    font-size: 15px;
-    border-style: none;
-    border-radius: 20px;
-    padding: 20px 20px;
-    width: 30vw;
-}
-
-#button-submit {
+.entrar > .button-submit {
     background-color: rgba(60, 60, 60, 0.01);
     box-shadow: -4px -4px 7px white, 0px 0px 7px black;;
     font-size: 15px;
@@ -102,7 +97,26 @@ h2 {
     color: #000;
 }
 
-#button-inscreva {
+.entrar > .button-submit:hover {
+    box-shadow: -0px -0px 7px black, 4px 4px 7px white;;
+}
+
+.forgot-password a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(60, 60, 60, 0.9);
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    color: #000;
+}
+
+.right-titles {
+    color: #fff;
+    margin-bottom: 55px;
+}
+
+.sing-up > .button-sing-up {
     background-color: rgb(0, 89, 255);
     box-shadow: -2px -2px 6px white, 1px 1px 7px black;;
     font-size: 15px;
@@ -113,22 +127,6 @@ h2 {
     color: #fff;
 }
 
-#forgot:hover {
-    color: black;
-}
-
-#link-logo:hover {
-    box-shadow: -0px -0px 7px black, 4px 4px 7px white;;
-}
-
-#input-style:hover {
-    box-shadow: -0px -0px 5px black, 4px 4px 10px white;;
-}
-
-#button-submit:hover {
-    box-shadow: -0px -0px 5px black, 4px 4px 10px white;;
-}
-
-#button-inscreva:hover {
+.sing-up > .button-sing-up:hover {
     box-shadow: -1px -1px 7px black, 2px 2px 6px white;;
 }
