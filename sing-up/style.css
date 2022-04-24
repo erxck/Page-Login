@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* A cada 1rem equivale a 10px */
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 5.0rem;
+}
+
+h2 {
+    font-size: 2.0rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.global-container {
+    display: flex;
+    text-align: center;
+}
+
+.global-container > .background-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(60, 60, 60, 0.2);
+    height: 100vh;
+    width: 50%;
+}
+
+.global-container > .background-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 89, 255);
+    height: 100vh;
+    width: 50%;
+}
+
+.title-h1 {
+    margin-bottom: 40px;
+}
+
+.links {
+    margin-bottom: 55px;
+}
+
+.links > .links-logo {
+    background-color: rgba(60, 60, 60, 0.01);
+    box-shadow: -4px -4px 7px white, 0px 0px 7px black;;
+    border-radius: 40px;
+    padding: 27px 14px 9px 14px;
+    margin: 10px;
+}
+
+.links > .links-logo:hover {
+    box-shadow: -0px -0px 7px black, 4px 4px 7px white;;
+}
+
+.div-inputs {
+    margin: 20px;
+}
+
+.input-style {
+    background-color: rgba(60, 60, 60, 0.01);
+    box-shadow: -4px -4px 7px white, 0px 0px 7px black;;
+    font-size: 1.5rem;
+    border-style: none;
+    border-radius: 20px;
+    padding: 20px;
+    width: 36vw;
+    outline: 0;
+}
+
+.input-style:hover {
+    box-shadow: -0px -0px 7px black, 4px 4px 7px white;;
+}
+
+.sing-in > .button-submit {
+    background-color: rgba(60, 60, 60, 0.01);
+    box-shadow: -4px -4px 7px white, 0px 0px 7px black;;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 20px;
+    padding: 20px 40px;
+    color: #000;
+}
+
+.sing-in > .button-submit:hover {
+    box-shadow: -0px -0px 7px black, 4px 4px 7px white;;
+}
+
+.right-titles {
+    color: #fff;
+    margin-bottom: 55px;
+}
+
+.sing-up > .button-sing-up {
+    background-color: rgb(0, 89, 255);
+    box-shadow: -2px -2px 6px white, 1px 1px 7px black;;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 30px;
+    padding: 20px 60px;
+    color: #fff;
+}
+
+.sing-up > .button-sing-up:hover {
+    box-shadow: -1px -1px 7px black, 2px 2px 6px white;;
+}
+
+@media (max-width: 899px) {
+    html {
+        font-size: 50%;
+    }
+
+    .links > .links-logo {
+        border-radius: 40px;
+        margin: 10px;
+        padding: 26px 12px 9px 12px;
+    }
+    
+    .input-style {
+        padding: 17px;
+        border-radius: 16px;
+    }
+    
+    .sing-in > .button-submit {
+        padding: 17px 35px;
+    }
+    
+    .sing-up > .button-sing-up {
+        padding: 17px 45px;
+        border-radius: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .global-container {
+        display: block;
+    }
+    
+    .global-container > .background-left {
+        width: 100vw;
+    }
+
+    .global-container > .background-right {
+        width: 100vw;
+    }
+    
+    .links > .links-logo {
+        border-radius: 40px;
+        margin: 10px;
+        padding: 22px 10px 7px 10px;
+    }
+
+    .links-logo > .logo {
+        height: 20px;
+    }
+
+    .input-style {
+        width: 70vw;
+    }
+}
